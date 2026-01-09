@@ -18,7 +18,7 @@ export const SynnovatorApp: React.FC = () => {
         background: 'linear-gradient(359deg, #FFF 12.31%, #F7FEFF 79.66%, #47FFB2 112.32%)'
       }}
     >
-      <div className="flex w-full flex-col items-stretch pt-4 pb-2.5 px-[9px]">
+      <div className="flex w-full flex-col items-stretch pt-4 pb-2.5 px-[9px] gap-0">
         <Header />
         
         {/* Main action cards */}

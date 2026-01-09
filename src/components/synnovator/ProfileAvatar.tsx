@@ -1,15 +1,20 @@
 import React from 'react';
+import { X } from 'lucide-react';
 
 export const ProfileAvatar: React.FC = () => {
+  const handleClose = () => {
+    window.close();
+  };
+
   return (
     <div className="flex justify-center mt-[21px]">
-      <div className="aspect-[1] w-[92px] h-[92px] rounded-full overflow-hidden cursor-pointer hover:ring-4 hover:ring-blue-200 transition-all">
-        <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/e847f604c815dedd3b4ba715b7034ba5b2d5ec8f?placeholderIfAbsent=true"
-          alt="用户头像"
-          className="aspect-[1] object-contain w-full h-full bg-[#DCDCDC]"
-        />
-      </div>
+      <button
+        onClick={handleClose}
+        className="aspect-[1] w-[92px] h-[92px] rounded-[50%] bg-[#DCDCDC] flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors"
+        aria-label="关闭页面"
+      >
+        <X className="w-12 h-12 text-[#00000E]" />
+      </button>
     </div>
   );
 };
