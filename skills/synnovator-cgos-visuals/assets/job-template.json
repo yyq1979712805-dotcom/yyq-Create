@@ -1,0 +1,23 @@
+{
+  "project": {
+    "name": "Project Name",
+    "summary": "Verified one-sentence project description",
+    "industry": "competition-track-or-industry",
+    "product_form": "software-hardware-service-or-platform",
+    "maturity": "concept-prototype-growth-or-scale",
+    "audience": [
+      "competition-judges"
+    ],
+    "brand_colors": []
+  },
+  "asset_type": "project_cover",
+  "platform": "synnovator",
+  "facts": [],
+  "exact_text_whitelist": [
+    "Project Name"
+  ],
+  "visual_must_include": [],
+  "visual_must_avoid": [],
+  "reference_assets": [],
+  "output_count": 1
+}
