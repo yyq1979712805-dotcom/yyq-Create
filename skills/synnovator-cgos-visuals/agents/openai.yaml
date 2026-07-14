@@ -1,0 +1,4 @@
+interface:
+  display_name: "SynNovator CGOS Visuals"
+  short_description: "Generate project-specific competition visuals with CGOS prompts"
+  default_prompt: "Use $synnovator-cgos-visuals to analyze this project and prepare a project-specific Image2 visual generation package."
